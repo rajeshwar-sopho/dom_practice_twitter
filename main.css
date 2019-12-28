@@ -1,0 +1,143 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #1A91DA;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    /* background-color: yellowgreen; */
+}
+
+nav ul {
+    margin: 0px;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    /* background-color: tomato; */
+    list-style-type: none;
+    margin: 0px 10px 0px 10px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+header h1 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    margin: 0px;
+    padding: 10px;
+}
+
+#newPost {
+    padding: 10px 5px 10px 16px;
+    margin: 0 auto;
+    width: 90%;
+    background-color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+textarea[name="userpost"] {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    resize: none;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    background-color: #1A91DA;
+    border: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#container {
+    width: 100%;
+    /* background-color: lawngreen; */
+}
+
+main {
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+}
+
+#userWall {
+    /* background-color: lightgreen; */
+}
+
+#wallHeading h3{
+    padding: 5px;
+    background-color: #1A91DA;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#postsList {
+    /* background-color: yellow; */
+}
+
+ul {
+    padding: 0px;
+    width: 100%;
+}
+
+.post {
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    list-style-type: none;
+}
+
+.post-content {
+    background-color: whitesmoke;
+    width: 80%;
+    height: 90%;
+    margin-left: 20%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+}

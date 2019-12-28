@@ -8,8 +8,54 @@
     <title>Twitter - Clone</title>
 </head>
 <body>
-    
+    <header>
+        <h1>twitter!</h1>
 
+        <nav>
+            <ul>
+                <li id="sin"><a href="#">sign in</a></li>
+                <li id="sup"><a href="#">sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <aside id="left"></aside>
+
+        <main>
+            <div id="newPost">
+                <form>
+                    <textarea name="userpost" id="userpost" placeholder="What's on your mind"></textarea><br>
+                    <input type="submit" value="Tweet!" id="tweet_button">
+                </form>
+            </div>
+            <div id="friendSuggestions"></div>
+            <div id="userWall">
+                <div id="wallHeading"><h3>Your Wall</h3></div>
+                <ul id="postsList">
+                    <!-- <li class="post">
+                        <div class="post-info">
+                            <div class="user-img">
+
+                            </div>
+                            <div class="user-name">
+
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>this is some dummy content and some more contentthis is some dummy content and some more contentthis is some dummy content and some more contentthis is some dummy content and some more contentthis is some dummy content and some more contentthis is some dummy content and some more content</p>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </main>
+    
+        <aside id="right"></aside>
+    </div>
+
+    <footer>
+
+    </footer>
 
     <script src="main.js"></script>
 </body>
