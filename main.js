@@ -27,8 +27,13 @@ tweet_button.addEventListener('click', (e) => {
 
     let postsList = document.querySelector("#postsList");
     let userpost = document.querySelector("#userpost");
-    let post = new Post(userpost.value);
-    postsList.appendChild(post.htmlElement);
-
-    userpost.value = "";
+    if (userpost.value !== "") {
+        let post = new Post(userpost.value);
+        postsList.appendChild(post.htmlElement);
+    
+        userpost.value = "";
+    }
+    else {
+        alert("cannot submit empty tweet!");
+    }
 });
